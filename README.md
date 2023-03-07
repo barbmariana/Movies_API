@@ -46,4 +46,4 @@ npm i
 npm run dev
 ```
 
-<img src="listaFilmesFoto.png"/
+<img src="listaFilmesFoto.png"/>
