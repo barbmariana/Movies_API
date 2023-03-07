@@ -1,6 +1,8 @@
 const express = require('express');
 const routes = express.Router();
 const filme =  require ('./src/Controllers/FilmeController')
+
+
 //Routes index
 
 routes.get("/", (req, res) => {
@@ -11,6 +13,8 @@ routes.get("/", (req, res) => {
 
     }
 })
+
+//Routes filmes
 
 routes
 .get("/filmes", filme.listarFilme)

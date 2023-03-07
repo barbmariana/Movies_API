@@ -10,15 +10,17 @@ Filme.init({
         allowNull: false,
         primaryKey: true
     },
-    nome_Filme: {
+    nome_filme: {
         type: DataTypes.STRING,
-        allowNull : false
     },
-    sinopse:{
+    diretor:{
+        type: DataTypes.STRING,
+    },
+    genero:{
         type: DataTypes.STRING,
     },
     data_acesso:{
-        type: DataTypes.DATE,
+        type: DataTypes.STRING,
     },
     data_lancamento:{
         type: DataTypes.NUMBER,
@@ -37,3 +39,12 @@ Filme.init({
 
 
 module.exports = Filme ;
+
+//{
+    // "id_filme":1,
+    // "nome_filme":"O lado bom da vida",
+    // "diretor": "David O. Russell",
+    // "genero":"dramédia",
+    // "data_acesso":"2013-02-08",
+    // "data_lancamento":2013,
+    // "local_disponivel" :"Netflix"

@@ -16,7 +16,8 @@ module.exports = {
             const filme = await ModelFilme.create({
                 id_filme: req.body.id_filme,
                 nome_filme: req.body.nome_filme,
-                sinopse: req.body.email_filme,
+                diretor: req.body.diretor,
+                genero: req.body.genero,
                 data_acesso: req.body.data_acesso,
                 data_lancamento: req.body.data_lancamento,
                 local_disponivel: req.body.local_disponivel
@@ -39,10 +40,11 @@ module.exports = {
     async editarFilme(req,res){
         try{
             const id=req.params.id
-            await ModelFilmeo.update({
+            await ModelFilme.update({
                 id_filme: req.body.id_filme,
                 nome_filme: req.body.nome_filme,
-                sinopse: req.body.email_filme,
+                diretor: req.body.diretor,
+                genero: req.body.genero,
                 data_acesso: req.body.data_acesso,
                 data_lancamento: req.body.data_lancamento,
                 local_disponivel: req.body.local_disponivel}, {
