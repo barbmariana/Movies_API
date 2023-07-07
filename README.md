@@ -1,4 +1,10 @@
 # Cinema_MVP_Case1_Individual
+Creating and movie list app for Resilia Bootcamp.
+
+First - Create an API for the movie list project
+Second - Front end table to show the data.
+
+(Pt-br)
 Criando um app de lista de filmes para o projeto do case 1 individual para o bootcamp da Resilia. 
 
  Parte 1 - Criando uma API para o projeto de uma lista de filmes. Realizei todo o back end no padrão MVC e utilizei o banco de dados sqlite. 
@@ -6,27 +12,27 @@ Criando um app de lista de filmes para o projeto do case 1 individual para o boo
  Parte 2 - Criei o front para demonstrar em tabela meu banco de dados. 
 
  
- ## Objetivo 📍
-⇨ Utilizar o padrão MVC;
-⇨ Utilizar os verbos HTTP seguindo o padrão REST;
-⇨ Implementar todas as operações de CRUD;
-⇨ Utilizar o padrão de projeto (design pattern) DAO para abstração de transações no banco, com Promises;
+ ## Goal / Objetivo 📍
+⇨ Use pattern MVC / Utilizar o padrão MVC;
+⇨ Use verbs HTTP and REST / Utilizar os verbos HTTP seguindo o padrão REST;
+⇨ Implement all Crud operations / Implementar todas as operações de CRUD;
+⇨ Use design pattern DAO / Utilizar o padrão de projeto (design pattern) DAO para abstração de transações no banco, com Promises;
 
  
- ## Etapas :bookmark_tabs:
- 1. Entendendo o problema
- 2. Modelando o Banco   
- 5. Entendendo a API
- 6. Criando a API
- 7. Integrando ao Front End
+ ## Steps / Etapas :bookmark_tabs:
+ 1. Understand the problem / Entendendo o problema
+ 2. Model the db / Modelando o Banco   
+ 5. Understand the API / Entendendo a API
+ 6. Create the API / Criando a API
+ 7. Integrate with front end / Integrando ao Front End
 
- ## Tecnologias 🌐
+ ## Technologies / Tecnologias 🌐
  
  SQLite, Sequelize, Express, Axios, React, Bootstrap
  
- ## Guia de Uso :hammer:
+ ## How to Use / Guia de Uso :hammer:
  
-◼ Como instalar as dependências do projeto e Como executar o projeto:
+◼ Install the dependencies / Como instalar as dependências do projeto e Como executar o projeto:
 
 ```bash
 git clone https://github.com/barbmariana/Cinema_MVP_Case1_Individual
@@ -35,7 +41,7 @@ npm start
 ```
 <br>
 
-◼ Como instalar as dependências do front end e Como executar o projeto: 
+◼ Install front end / Como instalar as dependências do front end e Como executar o projeto: 
 ```bash
 git clone https://github.com/barbmariana/Cinema_MVP_Case1_Individual
 cd src
