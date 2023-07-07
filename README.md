@@ -2,6 +2,7 @@
 Creating and movie list app for Resilia Bootcamp.
 
 First - Create an API for the movie list project
+ <br>
 Second - Front end table to show the data.
 
 (Pt-br)
