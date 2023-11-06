@@ -1,4 +1,4 @@
-# Cinema_MVP_Case1_Individual
+# Movies list API - MVP
 Creating and movie list app for Resilia Bootcamp.
 
 First - Create an API for the movie list project
